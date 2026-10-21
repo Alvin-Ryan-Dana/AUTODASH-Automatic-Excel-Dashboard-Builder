@@ -1,0 +1,13 @@
+AutoDash test results
+=====================
+Command: PYTHONPATH=. pytest -q
+Result: 20 passed
+
+Additional regression coverage for date-based line charts:
+- Chronological sorting of unsorted date strings
+- Duplicate dates aggregated using the selected aggregation
+- Indonesian month names
+- Mixed recognizable date formats
+- Existing Pandas datetime columns (including Excel-loaded dates)
+- Source DataFrame remains unchanged
+- Non-date categories are not silently converted to dates
