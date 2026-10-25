@@ -52,7 +52,7 @@ python -m pytest -q
 - Konfigurasi JSON hanya menyimpan struktur dashboard, bukan dataset.
 - SQLite tidak diaktifkan pada versi pertama untuk menjaga alur lokal tetap sederhana.
 
-## Pemecahan masalah
+## Problem Solving
 - **`py` tidak ditemukan:** instal Python dari python.org dan aktifkan opsi penambahan Python ke PATH.
 - **Dependensi gagal dipasang:** aktifkan virtual environment lalu jalankan `python -m pip install -r requirements.txt`.
 - **XLS gagal dibaca:** pastikan file bukan XLSX yang hanya diganti ekstensi.
